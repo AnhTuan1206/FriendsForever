@@ -1,0 +1,42 @@
+﻿/*Generic Element styles*/
+a{
+    text-decoration:none;
+}
+/*Styles for validation helpers
+    -----------------------------------------------------------*/
+.field-validaton-error
+{
+    color: #ff0000;
+}
+
+.field-validaton-error {
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validaton-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validaton-summary-valid
+{
+    display: none;
+}
+
+.bodyRegister {
+    background-image: url("../Content/Images/Register_BG.jpg");
+    background-size: 800px;
+    background-position-y:710px;
+    background-position-x: 570px;
+    background-repeat:no-repeat;
+    font-family:Comic Sans MS;
+}
+
+

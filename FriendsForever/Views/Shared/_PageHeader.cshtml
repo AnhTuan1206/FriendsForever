@@ -1,0 +1,22 @@
+﻿<div style="background-color: #778899; margin:-8px;">
+    <table style="width:100%;">
+        <tr>
+            <td style="width:25%;text-align:right">
+                @Html.ActionLink("FriendForEver", "HomePage", null, new {style="color: #fff;font-family:andalus;vertical-align:4px;"})
+            </td>
+            <td style="width:50%;text-align:center;">
+                <div>
+                    <input type="text" placeholder="Search people" style="width:400px;height:24px;margin-top:5px;" />
+                </div>
+            </td>
+            <td>
+                <div>
+                    @Html.ActionLink("Home", "HomePage", null, new { style = "color: #fff;float:left;" });
+                </div>
+                <div>
+                    @Html.ActionLink("Logout", "Logout","Security", null, new { style = "color: #fff;float:left;" });
+                </div>
+            </td>
+        </tr>
+    </table>
+</div> 
